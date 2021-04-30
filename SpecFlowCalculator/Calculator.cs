@@ -8,5 +8,10 @@ namespace SpecFlowCalculator
       public int SecondNumber { get; set; }
 
       public int Add() => FirstNumber + SecondNumber;
+
+      public int Subtract()
+      {
+         throw new NotImplementedException();
+      }
    }
 }
