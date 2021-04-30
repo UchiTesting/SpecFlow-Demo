@@ -3,8 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-TODO.md
-
 # User-specific files
 *.rsuser
 *.suo
@@ -363,3 +361,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+## User defined rules
+TODO.md
+!Generate LivingDoc Debug.cmd
