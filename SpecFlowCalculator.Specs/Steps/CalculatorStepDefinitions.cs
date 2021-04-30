@@ -54,6 +54,15 @@ namespace SpecFlowCalculator.Specs.Steps
          _result = _calculator.Add();
       }
 
+      [When("the two numbers are subtracted")]
+      public void WhenTheTwoNumbersAreSubtracted()
+      {
+         //TODO: implement act (action) logic
+
+         //_scenarioContext.Pending();
+         _result = _calculator.Subtract();
+      }
+
       [Then("the result should be (.*)")]
       public void ThenTheResultShouldBe(int result)
       {
